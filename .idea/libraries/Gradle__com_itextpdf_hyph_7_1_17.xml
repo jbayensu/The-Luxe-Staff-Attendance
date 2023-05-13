@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.itextpdf:hyph:7.1.17">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.itextpdf/hyph/7.1.17/e85f944d8d1969729fdb4c98902a5a3aca505090/hyph-7.1.17.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/hyph/7.1.17/e85f944d8d1969729fdb4c98902a5a3aca505090/hyph-7.1.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

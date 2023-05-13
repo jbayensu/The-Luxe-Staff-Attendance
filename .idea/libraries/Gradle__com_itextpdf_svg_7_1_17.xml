@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.itextpdf:svg:7.1.17">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.itextpdf/svg/7.1.17/d348dc52671cd2a6f32286397d92d444bdaa80be/svg-7.1.17.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/svg/7.1.17/d348dc52671cd2a6f32286397d92d444bdaa80be/svg-7.1.17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.itextpdf/svg/7.1.17/40ded954eb060142027869c3eb14c2dcb2a61a56/svg-7.1.17-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/svg/7.1.17/40ded954eb060142027869c3eb14c2dcb2a61a56/svg-7.1.17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.itextpdf/svg/7.1.17/d7ed1ac2b866dac5f012d65b3c8a8caaf1ac162e/svg-7.1.17-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/svg/7.1.17/d7ed1ac2b866dac5f012d65b3c8a8caaf1ac162e/svg-7.1.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

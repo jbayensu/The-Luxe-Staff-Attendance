@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.itextpdf:styled-xml-parser:7.1.17">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.itextpdf/styled-xml-parser/7.1.17/c3dc20ada27cc718c62b7e22b7e3efe5ab719227/styled-xml-parser-7.1.17.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/styled-xml-parser/7.1.17/c3dc20ada27cc718c62b7e22b7e3efe5ab719227/styled-xml-parser-7.1.17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.itextpdf/styled-xml-parser/7.1.17/7081ae7b80e319579cd882725e14b86b4a274a1e/styled-xml-parser-7.1.17-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/styled-xml-parser/7.1.17/7081ae7b80e319579cd882725e14b86b4a274a1e/styled-xml-parser-7.1.17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.itextpdf/styled-xml-parser/7.1.17/7d6337514853ddf9e904df2a6f9e5530727c4909/styled-xml-parser-7.1.17-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/styled-xml-parser/7.1.17/7d6337514853ddf9e904df2a6f9e5530727c4909/styled-xml-parser-7.1.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

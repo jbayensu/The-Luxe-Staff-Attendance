@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.appcompat:appcompat-resources:1.4.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../caches/transforms-3/d04129008a1ab91700827965297b4abf/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-3/d04129008a1ab91700827965297b4abf/transformed/jetified-appcompat-resources-1.4.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-3/d04129008a1ab91700827965297b4abf/transformed/jetified-appcompat-resources-1.4.0/res" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-3/abf57d6e63028abbe2098b339cb24de2/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-3/abf57d6e63028abbe2098b339cb24de2/transformed/jetified-appcompat-resources-1.4.0/res" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-3/abf57d6e63028abbe2098b339cb24de2/transformed/jetified-appcompat-resources-1.4.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/abf57d6e63028abbe2098b339cb24de2/transformed/jetified-appcompat-resources-1.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/abf57d6e63028abbe2098b339cb24de2/transformed/jetified-appcompat-resources-1.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/abf57d6e63028abbe2098b339cb24de2/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/androidx.appcompat/appcompat-resources/1.4.0/8f78838745a125dea62514f7b4f70e8776a6244e/appcompat-resources-1.4.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat-resources/1.4.0/8f78838745a125dea62514f7b4f70e8776a6244e/appcompat-resources-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

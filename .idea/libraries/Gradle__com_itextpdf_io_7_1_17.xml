@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.itextpdf:io:7.1.17">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.itextpdf/io/7.1.17/f9ae0a3c323852e9aff9f41ae2ab9b58c9d1db50/io-7.1.17.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/io/7.1.17/f9ae0a3c323852e9aff9f41ae2ab9b58c9d1db50/io-7.1.17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.itextpdf/io/7.1.17/e8b04f37394ca778593e7f8587c3e513c863f045/io-7.1.17-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/io/7.1.17/e8b04f37394ca778593e7f8587c3e513c863f045/io-7.1.17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.itextpdf/io/7.1.17/9fd26f2f7af026a22984ef61bc99ab024fffcbd7/io-7.1.17-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/io/7.1.17/9fd26f2f7af026a22984ef61bc99ab024fffcbd7/io-7.1.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

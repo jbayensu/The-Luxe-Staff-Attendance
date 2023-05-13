@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.itextpdf:kernel:7.1.17">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.itextpdf/kernel/7.1.17/c93d4b2ea20e6ebbcf2e55fca286567912d6eb04/kernel-7.1.17.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/kernel/7.1.17/c93d4b2ea20e6ebbcf2e55fca286567912d6eb04/kernel-7.1.17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.itextpdf/kernel/7.1.17/f049bec568d8818ddc9654c4ee01e1d5986b69a2/kernel-7.1.17-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/kernel/7.1.17/f049bec568d8818ddc9654c4ee01e1d5986b69a2/kernel-7.1.17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.itextpdf/kernel/7.1.17/1ed593baa842fbc0906361a03261b63da67e12a3/kernel-7.1.17-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/kernel/7.1.17/1ed593baa842fbc0906361a03261b63da67e12a3/kernel-7.1.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
