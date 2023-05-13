@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".StaffDetailsFragment"
+    android:background="@drawable/luxe_bg">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cancel_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dismiss"
+        android:layout_gravity="end"
+        android:textColor="@color/dirty_gold"
+        android:background="@drawable/shape_rectangle"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/staff_detail_image_CIV"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_person"
+        app:civ_border_color="@color/dirty_gold"
+        app:civ_border_width="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_gravity="end"
+                android:textColor="@color/dirty_gold"/>
+
+            <TextView
+                android:id="@+id/staff_name_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/dirty_gold"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/department"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_gravity="end"
+                android:textColor="@color/dirty_gold"/>
+
+            <TextView
+                android:id="@+id/staff_department_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/dirty_gold"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_no"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_gravity="end"
+                android:textColor="@color/dirty_gold"/>
+
+            <TextView
+                android:id="@+id/staff_phone_number_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/staff_phone_number"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/dirty_gold"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/date_added"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_gravity="end"
+                android:textColor="@color/dirty_gold"/>
+
+            <TextView
+                android:id="@+id/staff_time_added_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/dirty_gold"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/date_updated"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_gravity="end"
+                android:textColor="@color/dirty_gold"/>
+
+            <TextView
+                android:id="@+id/staff_time_updated_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/dirty_gold"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="40dp">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/delete_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delete"
+                android:layout_marginEnd="10dp"
+                android:textColor="@color/black"
+                android:layout_gravity="end"
+                android:background="@color/red"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/submit_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="start"
+                android:background="@color/dirty_gold"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>

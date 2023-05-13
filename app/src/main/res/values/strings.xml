@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">The Luxe Staff Attendance</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="take_attendance">Take Attendance</string>
+    <string name="username">username</string>
+    <string name="logo">logo</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="register_new_user">Register New User</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="manage_staff">Manage Staff</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="log_out">Log out</string>
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="add_record">Add record</string>
+    <string name="surname">Surname</string>
+    <string name="total_number_of_staff">22</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="department">DEPARTMENT:</string>
+    <string name="name">NAME:</string>
+    <string name="staff_phone_number">Staff Phone Number</string>
+    <string name="phone_no">PHONE NO.:</string>
+    <string name="search">Search</string>
+    <string name="attendance_reports">Attendance Reports</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="select_department">Select department:</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="other_name_s">Other name(s)</string>
+    <string name="total_present">Total Present</string>
+    <string name="date">DATE:</string>
+    <string name="today">today</string>
+    <string name="total_absent">Total Absent</string>
+    <string name="total_staff">Total Staff</string>
+    <string name="attendance_rate">Attendance Rate</string>
+    <string name="work_shift">WORK SHIFT:</string>
+    <string name="date_in">DATE IN:</string>
+    <string name="time_in">TIME IN:</string>
+    <string name="cash_in">CASH IN:</string>
+    <string name="date_out">DATE OUT:</string>
+    <string name="time_out">TIME OUT:</string>
+    <string name="gh">GH₵</string>
+    <string name="cash_out">CASH OUT:</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">SUBMIT</string>
+    <string name="staff_attendance">Staff Attendance</string>
+    <string name="user_s_name">User\'s Name</string>
+    <string name="generate_pdf">generate pdf</string>
+    <string name="search_by_date">SEARCH BY DATE</string>
+    <string name="dismiss">DISMISS</string>
+    <string name="date_added">DATE ADDED:</string>
+    <string name="date_updated">DATE UPDATED:</string>
+    <string name="delete">DELETE</string>
+    <string name="edit">EDIT</string>
+    <string name="cash_in_ghc">CASH IN (Ghc):</string>
+    <string name="cash_out_ghc">CASH OUT (Ghc):</string>
+
+
+    <string-array name="Departments">
+        <item>Choose Department</item>
+        <item>Management</item>
+        <item>Security</item>
+        <item>Cashier</item>
+        <item>Bar</item>
+        <item>Kitchen</item>
+        <item>Shisha</item>
+        <item>Floor</item>
+        <item>Housekeeping</item>
+        <item>DJ</item>
+    </string-array>
+
+    <string name="more">more</string>
+    <string name="back_up_database">Back up database</string>
+    <string name="reason">Reason for Being Absent</string>
+    <string name="phone_description">Phone Description</string>
+    <string name="cash_in_gh">Cash In (GH₵)</string>
+    <string name="cash_out_gh">Cash Out (GH₵)</string>
+    <string name="switch_to_absent">SWITCH TO ABSENT</string>
+    <string name="check_in_btn">SWITCH TO CHECK IN</string>
+    <string name="permission_btn">Switch to Absent</string>
+    <string name="phone_desc">PHONE DESC:</string>
+    <string name="status">STATUS:</string>
+    <string name="reason_for_absence">REASON FOR ABSENCE:</string>
+    <string name="from">FROM:</string>
+    <string name="to">TO:</string>
+    <string name="datein">\"DATE: \"</string>
+    <string name="names">Names</string>
+    <string name="dates">Dates</string>
+</resources>
+

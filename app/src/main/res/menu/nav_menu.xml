@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="@string/dashboard"/>
+
+    <item
+        android:id="@+id/nav_manage_staff"
+        android:icon="@drawable/ic_baseline_people_24_100"
+        android:title="@string/manage_staff"/>
+
+    <item
+        android:title="@string/staff_attendance">
+        <menu>
+            <item
+                android:id="@+id/nav_attendance"
+                android:icon="@drawable/ic_baseline_access_time_24"
+                android:title="@string/take_attendance"/>
+
+            <item
+                android:id="@+id/nav_attendance_report"
+                android:icon="@drawable/ic_baseline_fact_check_24_100"
+                android:title="@string/attendance_reports"/>
+
+        </menu>
+    </item>
+
+
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/settings"/>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/profile">
+        <menu>
+            <item
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="@string/log_out"/>
+        </menu>
+    </item>
+
+</menu>

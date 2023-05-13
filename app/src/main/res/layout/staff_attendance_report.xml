@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="1dp"
+    app:contentPadding="1dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/dirty_gold">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="10dp">
+
+        <!-- ImageView: Show user image -->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/staff_record_profile_picture_CIV"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_person"
+            app:civ_border_color="@color/dirty_gold"
+            app:civ_border_width="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@+id/more_action_IB"
+            android:layout_toEndOf="@+id/staff_record_profile_picture_CIV"
+            android:orientation="vertical">
+
+            <!-- TextView: User surname -->
+            <TextView
+                android:id="@+id/staff_record_full_name_ET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/surname"
+                android:textColor="@color/dirty_gold"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <!-- TextView: user phone number -->
+            <TextView
+                android:id="@+id/staff_record_phone_number_ET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/dirty_gold"
+                android:textSize="14sp" />
+
+            <!-- TextView: user department -->
+            <TextView
+                android:id="@+id/staff_record_department_ET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/department"
+                android:textColor="@color/dirty_gold"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <!-- ImageButton: show more options like delete, edit, etc.. -->
+        <ImageButton
+            android:id="@+id/more_action_IB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@null"
+            android:contentDescription="@string/more"
+            android:src="@drawable/ic_more" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

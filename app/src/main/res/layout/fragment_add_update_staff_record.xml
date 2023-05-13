@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AddUpdateStaffRecordFragment"
+    android:background="@drawable/luxe_bg">
+
+
+
+    <!-- ImageView: input/Add Profile Image -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/staff_profile_picture_CIV"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_add_photo"
+        app:civ_border_color="@color/dirty_gold"
+        app:civ_border_width="1dp"/>
+
+
+    <!-- TextView: Display staffId -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/staff_profile_picture_CIV">
+
+        <!-- EditText: input user's First Name and Last Name -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/surname"
+            app:boxBackgroundColor="#F8E9FD"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/staff_Surname_name_ET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:inputType="textPersonName|textCapWords"
+                android:backgroundTint="@color/white" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/other_name_s"
+            app:boxBackgroundColor="#F8E9FD"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/staff_other_name_ET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:inputType="textPersonName|textCapWords"
+                android:backgroundTint="@color/white" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- EditText: Input user's phone number -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_number"
+            app:boxBackgroundColor="#F8E9FD"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/staff_phone_number_ET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:inputType="phone"
+                android:backgroundTint="@color/white" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- EditText: Input user's Department -->
+
+
+        <TextView
+            android:id="@+id/department_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_department"
+            android:textSize = "15sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp" />
+
+        <Spinner
+            android:id="@+id/department_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/white"
+            android:background="@color/white"
+            android:spinnerMode="dropdown"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <!-- FAB: Add/Update Record -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_staff_record_FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_done"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/dirty_gold"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/profile_picture"/>
+
+
+
+</RelativeLayout>

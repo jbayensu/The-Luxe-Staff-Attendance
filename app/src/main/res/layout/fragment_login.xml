@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/luxe_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LoginFragment"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true">
+
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/logo"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/luxe_logo"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/admin_login"
+                android:textColor="#AC7C34"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="11dp"
+                android:background="@color/black"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username"
+                app:boxBackgroundColor="#F8E9FD"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/log_username_edittext"
+                    android:textStyle="bold"
+                    android:inputType="textPersonName|textCapWords"
+                    android:backgroundTint="@color/white"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                app:boxBackgroundColor="#F8E9FD"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="40dp"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/dirty_gold">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/log_password_edittext"
+                    android:inputType="textPassword"
+                    android:textStyle="bold"
+                    android:backgroundTint="@color/white"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/log_login_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="@string/login" />
+
+
+
+
+</LinearLayout>

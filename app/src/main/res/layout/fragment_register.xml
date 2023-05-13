@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".RegisterFragment"
+    android:background="@drawable/luxe_bg"
+    android:focusableInTouchMode="true">
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_new_user"
+        android:textColor="#AC7C34"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:background="@color/black"
+        />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_image_CIV"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/luxe_logo"
+            app:civ_border_color="@color/dirty_gold"
+            app:civ_border_width="1dp"
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            app:boxBackgroundColor="#F8E9FD"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/reg_username_edittext"
+                android:textStyle="bold"
+                android:inputType="textPersonName|textCapWords"
+                android:backgroundTint="@color/white"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            app:boxBackgroundColor="#F8E9FD"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/dirty_gold">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/reg_password_edittext"
+                android:inputType="textPassword"
+                android:textStyle="bold"
+                android:backgroundTint="@color/white"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/confirm_password"
+            app:boxBackgroundColor="#F8E9FD"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/dirty_gold">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/reg_confirm_password_edittext"
+                android:inputType="textPassword"
+                android:textStyle="bold"
+                android:backgroundTint="@color/white"/>
+
+        </com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/department"
+            app:boxBackgroundColor="#F8E9FD"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/department_ET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:inputType="text"
+                android:backgroundTint="@color/white"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:id="@+id/reg_delete_btn"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/red"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:id="@+id/reg_register_btn"
+            android:layout_margin="20dp"
+            android:layout_toEndOf="@id/reg_delete_btn"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

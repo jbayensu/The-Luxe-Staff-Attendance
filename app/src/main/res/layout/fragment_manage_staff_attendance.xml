@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ManageStaffAttendanceFragment">
+
+    <!-- RecyclerView: Show Records -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/staff_attendance_RV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/staff_record"
+        android:paddingBottom="80dp"
+        android:clipToPadding="false"
+        android:background="@drawable/luxe_bg"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+
+</RelativeLayout>

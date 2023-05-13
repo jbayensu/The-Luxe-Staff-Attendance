@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ManageUsersFragment">
+
+    <!-- RecyclerView: Show Records -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/user_records_RV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/user_record"
+        android:paddingBottom="80dp"
+        android:clipToPadding="false"
+        android:background="@drawable/luxe_bg"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    <!-- Add Floating Action Button to add record -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_user_record_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_white"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/add_record"
+        android:backgroundTint="@color/dirty_gold"/>
+
+</RelativeLayout>

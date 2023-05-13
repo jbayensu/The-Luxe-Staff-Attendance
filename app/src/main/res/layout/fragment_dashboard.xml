@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context=".DashboardFragment"
+    android:background="@drawable/luxe_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:background="@drawable/header_bg"
+        android:padding="12dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/luxe_logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dashboard"
+            android:textSize="30sp"
+            android:textColor="#fafafa"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:orientation="vertical"
+            android:paddingEnd="5dp"
+            android:paddingStart="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textSize="18sp"
+                android:textColor="@color/dirty_gold"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="5dp"
+            android:paddingEnd="10dp"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/current_date_view"
+                android:text="@string/today"
+                android:textSize="18sp"
+                android:textColor="@color/dirty_gold"/>
+<!--
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="06:00pm"
+                android:textSize="18sp"
+                android:textColor="@color/dirty_gold" />
+                -->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:padding="10dp"
+            tools:ignore="NestedWeights">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                app:cardBackgroundColor="@color/dirty_gold">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_baseline_fact_check_24_100"
+                        android:contentDescription="@string/total_present"/>
+
+                    <TextView
+                        android:id="@+id/total_present_TV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textStyle="bold"
+                        android:textSize="50sp"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/total_present"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="5dp"
+                android:background="#fff">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_baseline_person_add_disabled_24_100"
+                        android:contentDescription="@string/total_absent"/>
+
+                    <TextView
+                        android:id="@+id/total_absent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textStyle="bold"
+                        android:textSize="50sp"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/total_absent"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:padding="10dp"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="5dp"
+                android:background="#fff">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_baseline_people_24_100"
+                        android:contentDescription="@string/total_staff"/>
+
+                    <TextView
+                        android:id="@+id/total_number_of_staff_TV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/total_number_of_staff"
+                        android:textSize="50sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/dirty_gold"
+                        android:textAlignment="center"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/total_staff"
+                        android:textColor="@color/dirty_gold"
+                        android:textAlignment="center"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                app:cardBackgroundColor="@color/dirty_gold">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_baseline_analytics_24_100"
+                        android:contentDescription="@string/attendance_rate"/>
+
+                    <TextView
+                        android:id="@+id/average_attendance_TV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textStyle="bold"
+                        android:textSize="50sp"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/attendance_rate"
+                        android:textAlignment="center"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

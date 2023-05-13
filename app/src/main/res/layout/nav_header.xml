@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_profile_CIV"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/michael"
+        android:paddingTop="16dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="1dp"/>
+
+    <TextView
+        android:id="@+id/user_name_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="20dp"
+        android:textSize="20sp"
+        android:text="@string/user_s_name"
+        android:textColor="@color/dirty_gold"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/department_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingStart="16dp"
+        android:paddingEnd="20dp"
+        android:text="@string/department"
+        android:textColor="@color/dirty_gold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/dirty_gold"/>
+
+</LinearLayout>
