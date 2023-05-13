@@ -1,0 +1,40 @@
+com/acetechsol/auththree/databinding/ActivityAttendanceReportPreviewBinding.java
+ com.acetechsol.auththree.databinding.ActivityAttendanceReportPreviewBinding
+com/acetechsol/auththree/databinding/FragmentSettingBinding.java
+ com.acetechsol.auththree.databinding.FragmentSettingBinding
+com/acetechsol/auththree/databinding/FragmentTakeStaffAttendanceBinding.java
+ com.acetechsol.auththree.databinding.FragmentTakeStaffAttendanceBinding
+com/acetechsol/auththree/databinding/ActivityMainBinding.java
+ com.acetechsol.auththree.databinding.ActivityMainBinding
+com/acetechsol/auththree/databinding/ActivityAuthBinding.java
+ com.acetechsol.auththree.databinding.ActivityAuthBinding
+com/acetechsol/auththree/databinding/FragmentStaffDetailsBinding.java
+ com.acetechsol.auththree.databinding.FragmentStaffDetailsBinding
+com/acetechsol/auththree/databinding/FragmentManageStaffRecordsBinding.java
+ com.acetechsol.auththree.databinding.FragmentManageStaffRecordsBinding
+com/acetechsol/auththree/databinding/FragmentManageStaffAttendanceBinding.java
+ com.acetechsol.auththree.databinding.FragmentManageStaffAttendanceBinding
+com/acetechsol/auththree/databinding/NavHeaderBinding.java
+ com.acetechsol.auththree.databinding.NavHeaderBinding
+com/acetechsol/auththree/databinding/FragmentLoginBinding.java
+ com.acetechsol.auththree.databinding.FragmentLoginBinding
+com/acetechsol/auththree/databinding/FragmentAddUpdateStaffRecordBinding.java
+ com.acetechsol.auththree.databinding.FragmentAddUpdateStaffRecordBinding
+com/acetechsol/auththree/databinding/StaffAttendanceReportBinding.java
+ com.acetechsol.auththree.databinding.StaffAttendanceReportBinding
+com/acetechsol/auththree/databinding/FragmentRegisterBinding.java
+ com.acetechsol.auththree.databinding.FragmentRegisterBinding
+com/acetechsol/auththree/databinding/FragmentAttendanceReportQueryBinding.java
+ com.acetechsol.auththree.databinding.FragmentAttendanceReportQueryBinding
+com/acetechsol/auththree/databinding/FragmentManageUsersBinding.java
+ com.acetechsol.auththree.databinding.FragmentManageUsersBinding
+com/acetechsol/auththree/databinding/FragmentDashboardBinding.java
+ com.acetechsol.auththree.databinding.FragmentDashboardBinding
+com/acetechsol/auththree/databinding/StaffReportBinding.java
+ com.acetechsol.auththree.databinding.StaffReportBinding
+com/acetechsol/auththree/BuildConfig.java
+ com.acetechsol.auththree.BuildConfig
+com/acetechsol/auththree/databinding/UserRecordBinding.java
+ com.acetechsol.auththree.databinding.UserRecordBinding
+com/acetechsol/auththree/databinding/StaffRecordBinding.java
+ com.acetechsol.auththree.databinding.StaffRecordBinding
